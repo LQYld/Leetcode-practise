@@ -2,13 +2,14 @@
 
 # dependencies
 /node_modules
-.pnpm-lock.yaml
 
 # testing
 /coverage
 
 # production
 /build
+/dist
+/coverage
 
 # misc
 .DS_Store
