@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext .js,.ts,.jsx,.tsx && npm run format",
-    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix && npm run format",
-    "format": "prettier --write \"./**/*.{html,ts,js,json,md}\"",
+    "lint": "eslint --ext .js,.ts && npm run format",
+    "lint:fix": "eslint --ext .js,.ts --fix && npm run format",
+    "format": "prettier --write \"./**/*.{ts,js,json,md}\"",
     "test": "jest test --passWithNoTests --coverage",
     "ci": "npm run lint && npm run test",
     "prepare": "husky install"
@@ -23,7 +23,6 @@
     "@types/node": "18.14.2",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.1",
-    "chalk": "^5.2.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
@@ -32,7 +31,7 @@
     "prettier": "^2.8.4"
   },
   "lint-staged": {
-    "*.{js,ts,jsx,tsx}": [
+    "*.{js,ts}": [
       "npm run lint"
     ]
   },

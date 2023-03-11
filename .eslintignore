@@ -1,0 +1,5 @@
+# .eslintignore
+**/*.json
+**/*.md
+/coverage
+/dist
