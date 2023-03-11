@@ -7,7 +7,6 @@ specifiers:
   '@types/node': 18.14.2
   '@typescript-eslint/eslint-plugin': ^5.54.0
   '@typescript-eslint/parser': ^5.54.1
-  chalk: ^5.2.0
   eslint: 8.35.0
   eslint-config-prettier: ^8.6.0
   eslint-plugin-prettier: ^4.2.1
@@ -30,7 +29,6 @@ devDependencies:
   '@types/node': registry.npmmirror.com/@types/node/18.14.2
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.54.1_mlk7dnz565t663n4razh6a6v6i
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
-  chalk: registry.npmmirror.com/chalk/5.2.0
   eslint-config-prettier: registry.npmmirror.com/eslint-config-prettier/8.7.0_eslint@8.35.0
   eslint-plugin-prettier: registry.npmmirror.com/eslint-plugin-prettier/4.2.1_xprnzp4ul2bcpmfe73av4voica
   husky: registry.npmmirror.com/husky/8.0.3
@@ -1826,6 +1824,7 @@ packages:
     name: chalk
     version: 5.2.0
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
 
   registry.npmmirror.com/char-regex/1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/char-regex/-/char-regex-1.0.2.tgz}
